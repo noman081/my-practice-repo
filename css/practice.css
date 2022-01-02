@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: royalblue;
+}
+.blog{
+    border: 15px solid royalblue;
+    border-radius: 20px;
+    margin: 10px auto;
+    padding: 10px;
+    width: 50%;
+    text-align: justify;
+    background-color: wheat;
+}
+/* There are multiple class in h3 headline */
+.large{
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    color: steelblue;
+}
+.center{
+    text-align: center;
+}

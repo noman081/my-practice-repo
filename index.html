@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CNN</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        .cnn{
+            background-color: lightsalmon;
+            color: rgb(24, 22, 22);
+            border: 5px solid magenta;
+            border-radius: 20px;
+            margin: 20px 50px;
+            padding: 20px;
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        .author-name{
+            color: red;
+            font-style: italic;
+        }
+        .taief{
+            background-color: black;
+            color: white;
+            border: 5px solid rgb(47, 0, 255);
+            border-radius: 20px;
+            width: 50%;
+            margin: 10px auto;
+            padding: 20px;
+        }
+        .cnn p{
+            text-align: justify;
+        }
+        .taief p{
+            text-align: justify;
+        }
+        .blog-title{
+            font-family:'Courier New', Courier, monospace;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My CNN blog</h1>
+    <div class="cnn">
+    <h3 class="blog-title">Convolution Neural Network (CNN)</h3>
+    <small>Author: <span class="author-name">Abdullah Al Noman</span></small>
+    <p>Convolution Neural Network (CNN) works like regular neural networks (RNNs); they are made up of neurons that learn from weights and biases. A neuron receives some inputs and performs a dot product in a non-linearity manner, and entire networks produce a single output. CNN's are slightly different from RNNs, where RNNs work with small scale images, but CNN's works with large scale images of 3D volumes of a neuron. In neural networks, hidden layers (Fig. 3.1) are found between the input and output of the algorithm, in which the work applies weights to the inputs and coordinates them through an activation function as the output.
+    </p>
+    </div>
+    <div class="taief">
+    <h3 class="blog-title">Convolution Layer</h3>
+    <small>Author: <span class="author-name">Eimon Hossain Taief</span></small>
+    <p>This is the main part of CNNs architecture that does most of the computational heavy lifting. The convolution layer responsible to compute the output of neuron which is connected to local regions in the input where computing a dot product their weights and small region they are connected to in input volume. This layer accepts a 3D volume and transforms it to an output of 3D volume (Fig. 3.3) through a differentiated function, where network learns filters that activate when it detects some specific type of feature at some spatial position in the input.</p>
+    </div>
+    <div class="cnn">
+    <h3 class="blog-title">Activation Layer</h3>
+    <small>Author: <span class="author-name">Nurul Amin Choton</span></small>
+    <p>An activation function is an essential feature of an artificial neural network, and they decide whether the neuron should be activated or not. We have different activation functions such as Sigmoid, ReLU, Leaky ReLU, Tanh, etc., but for this model, we focused on Rectified Linear Unit (ReLU). 
+    RELU Layer is applying an element-wise activation functions. For example, max (0, x) where thresholding at zero and activation function is fixed function considering what we exactly want. This layer doesn’t have additional hyperparameters.</p>
+    </div>
+</body>
+</html>
